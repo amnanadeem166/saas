@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Recipe Helper Dashboard</title>
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <h2 class="logo">Virtual Recipe Helper</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipe Search</a></li>
+                    <li><a href="#">Meal Planning</a></li>
+                    <li><a href="#">Shopping List</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Dashboard -->
+    <div class="dashboard">
+        <!-- Welcome Section -->
+        <section class="welcome">
+            <h3>Welcome back, [User Name]!</h3>
+        </section>
+
+        <!-- Ingredient-Based Recipe Search -->
+        <section class="widget">
+            <h3>Ingredient-Based Recipe Search</h3>
+            <p>Enter ingredients you have available:</p>
+            <input type="text" placeholder="E.g., chicken, garlic, rice" />
+            <button class="btn">Search Recipes</button>
+        </section>
+
+        <!-- Meal Plan Overview -->
+        <section class="widget">
+            <h3>Weekly Meal Plan</h3>
+            <p>View or update your meal plan for the week.</p>
+            <button class="btn">View Meal Plan</button>
+            <button class="btn">Create New Plan</button>
+        </section>
+
+        <!-- Recipe Suggestions -->
+        <section class="widget">
+            <h3>Recipe Suggestions</h3>
+            <ul>
+                <li>Recipe 1 <button class="btn">View Recipe</button></li>
+                <li>Recipe 2 <button class="btn">View Recipe</button></li>
+                <li>Recipe 3 <button class="btn">View Recipe</button></li>
+            </ul>
+        </section>
+
+        <!-- Nutritional Information -->
+        <section class="widget">
+            <h3>Nutritional Information</h3>
+            <p>Calories: 1200 kcal</p>
+            <p>Protein: 45g</p>
+            <p>Carbs: 150g</p>
+        </section>
+
+        <!-- Shopping List -->
+        <section class="widget">
+            <h3>Shopping List</h3>
+            <p>Items to purchase:</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <button class="btn">View Full List</button>
+        </section>
+
+        <!-- Personalized Diet Plan -->
+        <section class="widget">
+            <h3>Personalized Diet Plan</h3>
+            <p>Access your customized diet plan and advice from a nutritionist.</p>
+            <button class="btn">View Diet Plan</button>
+        </section>
+    </div>
+</body>
+</html>

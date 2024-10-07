@@ -1,0 +1,32 @@
+// _navbar.scss
+
+header {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $primary-color;
+        padding: 15px;
+        color: blue;
+
+        h2 {
+            margin-left: 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+
+            li {
+                display: inline;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

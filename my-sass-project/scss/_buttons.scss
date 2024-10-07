@@ -1,0 +1,9 @@
+// _buttons.scss
+
+.btn {
+    @include button-styles; // Use the mixin
+
+    &.btn {
+        margin-top: 10px; // Additional styles for specific buttons can go here
+    }
+}
